@@ -1,0 +1,19 @@
+
+
+Normal search
+
+https://www.google.co.uk/search?q=HELLO
+
+Image search
+
+https://www.google.co.uk/search?q=HELLO&sca_esv=557923302&hl=en&tbm=isch
+
+https://www.google.co.uk/search?q=HELLO&tbm=isch
+
+&sxsrf=AB5stBj6wxKBjuVMzC9eTSE99Dx7kQhZUA:1692309491609&source=lnms&sa=X&ved=2ahUKEwjwpeOQ2OSAAxXVU0EAHYexCJ4Q_AUoAnoECAQQBA&biw=1417&bih=831&dpr=1
+
+https://www.google.co.uk/search?q=hello&sca_esv=557923302&hl=en&tbm=isch&sxsrf=AB5stBhLYfnctZRE3bR_MsDeo6VcuIN3fg%3A1692309538109&source=hp&biw=1417&bih=831&ei=IpjeZL3RA6CfkdUPv4OT6AQ&iflsig=AD69kcEAAAAAZN6mMna3WASVpcKU2qv5A2GmtX6nOcra&ved=0ahUKEwi96vam2OSAAxWgT6QEHb_BBE0Q4dUDCAc&uact=5&oq=hello&gs_lp=EgNpbWciBWhlbGxvMgQQIxgnMgUQABiABDIIEAAYgAQYsQMyCBAAGIAEGLEDMgUQABiABDIIEAAYgAQYsQMyBRAAGIAEMggQABiABBixAzIFEAAYgAQyCBAAGIAEGLEDSKkFUABYlQRwAHgAkAEAmAFIoAG2AqoBATW4AQPIAQD4AQGKAgtnd3Mtd2l6LWltZ8ICCxAAGIAEGLEDGIMBwgIEEAAYAw&sclient=img
+
+Advanced search
+
+https://www.google.com/search?as_q=one&as_epq=two&as_oq=three&as_eq=four

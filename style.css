@@ -1,0 +1,221 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  color-scheme: dark light;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.display-none {
+  display: none;
+}
+.google-logo,
+.google-images-logo {
+  margin-top: 20vh;
+  width: 272px;
+}
+
+.google-maps-icon {
+  fill: white;
+}
+
+.google-account {
+  border-radius: 50%;
+  width: 35px;
+}
+
+.navbar {
+  flex-direction: row;
+  padding: 0 10px;
+  list-style: none;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 13px;
+}
+
+.navbar-between {
+  justify-content: space-between;
+}
+
+.navbar-items + .navbar-items {
+  padding-left: 20px;
+}
+
+.navbar-links {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-links:hover {
+  text-decoration: underline;
+}
+
+.content-middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.google-search-form {
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.google-search-bar {
+  max-width: 600px;
+  width: 100%;
+  margin: 30px 0;
+  border-radius: 100px;
+  border: 0.5px rgb(100, 100, 100) solid;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-within */
+.google-search-bar:hover,
+.google-search-bar:focus-within {
+  background: #303134;
+  border: #303134 1px solid;
+}
+
+.google-search-icon {
+  padding: 0 5px 0 20px;
+}
+
+.google-search-bar-inner {
+  padding: 13px 10px;
+  width: 90%;
+  border: none;
+  background: transparent;
+}
+
+.google-search-bar-inner:focus {
+  /* I tried border:none; at first but it didn't work  */
+  outline: none;
+}
+
+.google-search-button,
+.lucky-button,
+.advanced-search-button {
+  width: 130px;
+  height: 35px;
+  margin: 0 5px;
+  background: #303134;
+  border: none;
+  border-radius: 5px;
+}
+
+.advanced-search-button {
+  background: #4d90fe;
+  border-radius: 2px;
+  margin: 10px 0;
+}
+
+.google-search-button:focus,
+.google-search-button:hover,
+.lucky-button:focus,
+.lucky-button:hover {
+  border: rgb(100, 100, 100) solid 1px;
+}
+
+/* Advanced */
+
+.advanced-search-form {
+  margin-top: 3rem;
+}
+.advanced-form-row {
+  display: grid;
+  grid-template-columns: 200px 500px 350px;
+  gap: 20px;
+}
+
+.advanced-form-label {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.advanced-form-input {
+  /* width: 500px; */
+  height: 30px;
+  align-self: center;
+}
+
+.advanced-search-button-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Advanced Search Text */
+.advanced-search-title {
+  /* color: #d93025; */
+  color: #da4d43;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.advanced-form-label-title {
+  font-size: 16px;
+}
+
+.advanced-form-label {
+  font-size: 13px;
+}
+
+.advanced-form-exp-title {
+  font-size: 13px;
+  color: #8a8a8a;
+  font-weight: bold;
+}
+
+.advanced-form-exp {
+  font-size: 11px;
+}
+
+.advanced-form-exp span {
+  color: #8a8a8a;
+}
+
+@media (max-width: 1250px) {
+  .advanced-form-row {
+    display: grid;
+    grid-template-columns: 200px 500px;
+    gap: 20px;
+  }
+
+  .advanced-form-exp,
+  .advanced-form-exp-title {
+    display: none;
+  }
+}
+
+@media (max-width: 750px) {
+  .advanced-form-row {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    gap: 20px;
+  }
+}
